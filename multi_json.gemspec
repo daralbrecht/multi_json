@@ -15,6 +15,6 @@ Gem::Specification.new do |spec|
   spec.signing_key   = File.expand_path('~/.gem/private_key.pem') if $PROGRAM_NAME =~ /gem\z/
   spec.version       = MultiJson::Version
 
-  spec.required_rubygems_version = '>= 1.3.5'
+  spec.required_rubygems_version = '>= 1.3.1'
   spec.add_development_dependency 'bundler', '~> 1.0'
 end
